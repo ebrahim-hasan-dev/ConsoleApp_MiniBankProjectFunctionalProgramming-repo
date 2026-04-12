@@ -21,6 +21,45 @@ A robust console-based application built with **C++** using a functional program
 
 ---
 
+### 🔹 Data Persistence (Flat-File DB)
+* **Text-Based Storage:** All data (Customers & Users) is stored in `.txt` files.
+* **Custom Separators:** Data is parsed using a specific separator (e.g., `(//)`) to distinguish between record fields.
+* **Record Handling:** Efficient reading and writing logic to sync local data structures with the text files.
+
+---
+
+### 💻 Tech Stack
+* **Language:** C++
+* **Paradigm:** Functional / Procedural Programming
+* **Environment:** Console Application (CLI)
+
+---
+
+### 📂 Project Structure
+* `Clients.txt`: Stores customer records.
+* `Users.txt`: Stores system user records and their permission masks.
+
+---
+
+### 🚀 How to Run
+1. **Clone the repository.**
+2. **Setup Data Files:** Ensure the `.txt` files are in the same directory.
+3. **Run:** Execute the application.
+
+---
+
+### 🔐 Default Credentials
+To access the system and explore all features, use the following administrator account:
+
+| Field | Value |
+| :--- | :--- |
+| **Username** | `admin` |
+| **Password** | `1234` |
+
+> **Note:** This user is granted **Full Permissions** (`pAll`), allowing you to test every module in the system (Clients, Transactions, and User Management).
+
+---
+
 ## ⚠️ Important Execution Note
 
 For the application to function correctly, the database files (**`Clients.txt`** and **`Users.txt`**) must be located in the same directory as the code (**`.cpp`**) file. 
@@ -28,6 +67,7 @@ For the application to function correctly, the database files (**`Clients.txt`**
 The program uses relative paths to read and write data. If these files are missing from the project folder, the system will not be able to load or save any records.
 
 ---
+
 
 ## 🛠️ Technical Highlights
 
