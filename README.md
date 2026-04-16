@@ -95,4 +95,4 @@ A passionate Software Developer with a solid foundation in Computer Science. My 
 ---
 📫 **Connect with me:**
 * 📧 **Email:** [ebrahim-hasan-dev@gmail.com](mailto:ebrahim-hasan-dev@gmail.com)
-* 💼 **LinkedIn:** [Your Profile Name](https://linkedin.com/in/ebrahim-hasan)
+* 💼 **LinkedIn:** [Your Profile Name](https://linkedin.com/in/ebrahim-hasan-dev)
